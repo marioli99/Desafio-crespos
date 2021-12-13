@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: #fff;
+    
+}
+html,body{
+    height: 100%;
+}
+header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    height: 4.5rem;
+    z-index: 10;
+}
+.logo{
+    display: flex;
+    align-items: flex-end;
+    width: 80px;
+    height: 44px;
+   
+}
+  
+@media screen and (max-width:800px) {
+    nav{
+        display: none;
+    }
+    .container-icon{
+        display: none;
+    }
+    #busca{
+        display: none;
+    }
+    .logo{
+        display: flex;
+        justify-content: flex-end;
+    }
+  }
+  
+
+nav {
+    
+    margin-left: 40px;
+    margin-top: 11px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    color: #9767A9;
+    float: left;
+    width: 50vw;
+    
+}
+a {
+    color: #9767A9;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-family: 'Montserrat Medium';
+}
+ul :hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+#busca{
+    margin-top: 11px;
+    margin-left: 60px;
+    width: 200px;
+    height: 30px;
+    border: 3px solid #9767A9;
+    border-radius: 50px;
+    opacity: 1;
+   
+}
+
+
+ #txtbusca{
+    float: right;
+    margin-top: 5px;
+    margin-right: 30px;
+    border: none;
+    width: 8rem;
+}
+body{
+    max-height: 1400px;
+}
+
+#busca img{
+    margin-left:5px;
+    margin-top: 3px;
+}
+
+.container-icon{
+    margin-left: 25px;
+    margin-top: 11px;
+
+}
+
+.container-icon img{
+    margin-left: 0.5rem;
+    width: 35px;
+    height: 35px;
+}
+
+.cabeludo{
+    background-image: url('/imagem/cabeludo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+.text-cabeludo{
+    display: flex;
+}
+.text-cabeludo h1{
+    position: relative;
+    font-family: 'Playfair Display' sans-serif;
+    margin-top: 260px;
+    margin-left:185px ;
+    font-size:max(40px , 5vw);
+    width: 30vw;
+    line-height: 0.9;
+}
+.text-cabeludo p{
+    font-family: 'Montserrat';
+    margin-top: 290px;
+    margin-left:190px ;
+    font-size: 25px;
+    width: 25vw;
+}
+
+.text-passos{
+    background: #9767A9;
+    background-size: cover;
+    display: flex;
+    margin-top: 10%;
+    height: 50vh;
+    z-index: -1;
+}
+.text-passos p {
+    font-family: 'Montserrat';
+    width: 38vw;
+    font-size: min(30px, 1.4vw);
+    margin-top: 25px;
+    margin-left: 10px;
+
+}
+.text-passos h2{
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    width: 45vw;
+    margin-left: 80px;
+    
+}
+
+
+span{
+    font-size: 30px;
+}
+
+.olhe-espelho{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: -10%;
+    margin-left: 7%;
+}
+.espelho{
+    width: 45%;
+}
+
+.espelho img{
+    width: 100%;
+    
+}
+
+
+.text-espelho{
+    position: absolute;
+    background-color: #9767A9;
+    width: 29%;
+    height: 22.23rem;
+    margin-top: 25%;
+    margin-left: 6%;
+
+}
+
+.text-espelho p{
+    font-family: 'Montserrat';
+    font-size: 13px;
+    text-align: left;
+}
+
+.text-espelho p , h3{
+    padding: 0 5% 0 5%;
+}
+.text-espelho h3{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    height: 6rem;
+    width: 20vw;
+    text-align: left;
+    
+}
+
+.container-maju{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: -15%;
+    margin-right: 7%;
+    
+}
+
+.box-maju{
+    width: 45%;
+}
+
+.box-maju img{
+    width: 100%;
+}
+
+.text-maju {
+
+    position: absolute;
+    background-color: #9767A9;
+    width: 29%;
+    height: 18rem;
+    margin-top: 25%;
+    margin-right: 6.5%;
+    font-family: 'Montserrat';
+
+}
+.text-maju p{
+    font-family: 'Montserrat';
+    font-size: 13px;
+    text-align: left;
+}
+
+.text-maju p , h3{
+    padding: 0 5% 0 5%;
+}
+.text-maju h3{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    height: 4rem;
+    width: 20vw;
+    text-align: left;
+    
+}
+
+.container-praia{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: -0.5%;
+    margin-left: 7%;
+    
+}
+
+.box-praia{
+    width: 45%;
+}
+
+.box-praia img{
+    width: 100%;
+}
+
+.text-praia{
+
+    position: absolute;
+    background-color: #9767A9;
+    width: 29%;
+    height: 14rem;
+    margin-top: 25%;
+    margin-left: 6%;
+    font-family: 'Montserrat';
+
+}
+
+.text-praia p{
+    font-family: 'Montserrat';
+    font-size: 13px;
+    text-align: left;
+}
+
+.text-praia p , h3{
+    padding: 0 5% 0 5%;
+}
+.text-praia h3{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    height: 6rem;
+    width: 20vw;
+    text-align: left;
+    
+}
+.container-queen{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: -18%;
+    margin-right: 7%;
+    
+}
+
+.box-queen{
+    width: 45%;
+}
+
+.box-queen img{
+    width: 100%;
+}
+
+.text-queen{
+
+    position: absolute;
+    background-color: #9767A9;
+    width: 29%;
+    height: 14rem;
+    margin-top: 33%;
+    margin-right: 6.5%;
+    font-family: 'Montserrat';
+
+}
+
+.text-queen p{
+    font-family: 'Montserrat';
+    font-size: 13px;
+    text-align: left;
+}
+
+.text-queen p , h3{
+    padding: 0 5% 0 5%;
+}
+.text-queen h3{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    height: 4rem;
+    width: 25vw;
+    text-align: left;
+    
+}
+
+.container-family{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: -0.5%;
+    margin-left: 7%;
+    
+}
+
+.box-family{
+    width: 45%;
+}
+
+.box-family img{
+    width: 100%;
+}
+
+
+.text-family{
+
+    position: absolute;
+    background-color: #9767A9;
+    width: 29%;
+    height: 17rem;
+    margin-top: 25%;
+    margin-left: 6%;
+    font-family: 'Montserrat';
+
+}
+
+.text-family p{
+    font-family: 'Montserrat';
+    font-size: 13px;
+    text-align: left;
+}
+
+.text-family p , h3{
+    padding: 0 5% 0 5%;
+}
+.text-family h3{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    height: 4rem;
+    width: 20vw;
+    text-align: left;
+    
+}
+
+
+.container-espuma{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: -18%;
+    margin-right: 7%;
+    font-family: 'Montserrat';
+    
+}
+
+.box-espuma{
+    width: 45%;
+}
+
+.box-espuma img{
+    width: 100%;
+}
+.text-espuma{
+
+    position: absolute;
+    background-color: #9767A9;
+    width: 29%;
+    height: 17rem;
+    margin-top: 25%;
+    margin-right: 6.5%;
+    font-family: 'Montserrat';
+
+}
+
+.text-espuma p{
+    font-family: 'Montserrat';
+    font-size: 13px;
+    text-align: left;
+}
+
+.text-espuma p , h3{
+    padding: 0 5% 0 5%;
+}
+.text-espuma h3{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    height: 4rem;
+    width: 20vw;
+    text-align: left;
+    
+}
+
+.container-crisalho{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: -0.5%;
+    margin-left: 7%;
+    
+}
+
+
+
+
+.box-crisalho{
+    width: 45%;
+}
+
+.box-crisalho img{
+    width: 100%;
+}
+
+
+.text-crisalho{
+
+    position: absolute;
+    background-color: #9767A9;
+    width: 29%;
+    height: 14rem;
+    margin-top: 25%;
+    margin-left: 6%;
+    font-family: 'Montserrat';
+
+}
+
+.text-crisalho p{
+    font-family: 'Montserrat';
+    font-size: 13px;
+    text-align: left;
+}
+
+.text-crisalho p , h3{
+    padding: 0 5% 0 5%;
+}
+.text-crisalho h3{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    height: 4rem;
+    width: 20vw;
+    text-align: left;
+    
+}
+
+.container-curva{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: -8%;
+    margin-right: 10%;
+    font-family: 'Montserrat';
+    
+}
+
+.box-curva{
+    width: 35%;
+}
+
+.box-curva img{
+    width: 100%;
+}
+
+
+ .max-container{
+     display: grid;
+     grid-template-columns: repeat(5,1fr);
+ }
