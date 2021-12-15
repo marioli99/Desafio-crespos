@@ -3,14 +3,16 @@
 *{
     margin: 0;
     padding: 0;
-    border: none;
     list-style: none;
     color: #fff;
+    box-sizing: border-box;
     
 }
-html,body{
+html, body {
+    margin: 0;
+    padding: 0;
     height: 100%;
-}
+    }
 header{
     position: fixed;
     display: flex;
@@ -27,6 +29,7 @@ header{
     align-items: flex-end;
     width: 80px;
     height: 44px;
+    margin-left: 5% ;
    
 }
   
@@ -143,7 +146,6 @@ body{
 
 .text-passos{
     background: #9767A9;
-    background-size: cover;
     display: flex;
     margin-top: 10%;
     height: 50vh;
@@ -527,18 +529,25 @@ span{
     gap:15px;
     bottom: -50vh;
     margin-left: 5%;
+    padding-bottom: 100px;
   }
 
   .max-container div{
-
+      position: relative;
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
-      gap:15px;
-
+      justify-content:space-around;
+      gap: 15px;
+  }
+  .box-grid4 {
+      width: 275px;
   }
 
+  .box-grid1 {
+    width: 270px;
+}
   .max-container img{
+      
       width: 100%;
       height: auto;
       
@@ -546,11 +555,83 @@ span{
 
   footer{
     
-      background-color: #9767A9;
-     
+    background: #9767A9;
+    height: 6rem;
+    margin-top: 21%;
+    position: relative;
+    width: 100%;
+    
+    text-align: left;
      
       
   }
 
+  .rodape p{
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 10px;
+  }
+
+  .rodape{
+    margin-left: 5%;
+    padding-top: 3%;
+  }
+
+  .left{ 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left:65% ;
+      margin-top:-35px;
+      font-family: 'Montserrat';
+      font-size: 15px;
+      width: 100px;
+      height: 80%;
+  }
+
+  .left:hover{
+    cursor: pointer;
+    background: #AC95BB;
+}
+
+  .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:75% ;
+    margin-top:-35px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    width: 100px;
+    height: 80%;
+    }
+
+    .top:hover{
+        cursor: pointer;
+        background: #AC95BB;
+    }
+
+  
+
+  .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-left:85% ;
+    margin-top:-40px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    width: 5vw;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    width: 100px;
+    height: 80%;
+    }
+
+  .right:hover{
+    cursor: pointer;
+    background: #AC95BB;
+    }
 
   
