@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    border: none;
     list-style: none;
     color: #fff;
     
@@ -115,7 +115,7 @@ body{
 }
 
 .cabeludo{
-    background-image: url('imagem/cabeludo.png');
+    background-image: url("../imagem/cabeludo.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -517,7 +517,40 @@ span{
 }
 
 
- .max-container{
-     display: grid;
-     grid-template-columns: repeat(5,1fr);
- }
+
+  
+  .max-container{
+    display:grid;
+    grid-template-columns: 2fr 1.325fr 1.325fr 2fr 1.325fr;
+    position: relative;
+    width: 90%;
+    gap:15px;
+    bottom: -50vh;
+    margin-left: 5%;
+  }
+
+  .max-container div{
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap:15px;
+
+  }
+
+  .max-container img{
+      width: 100%;
+      height: auto;
+      
+  }
+
+  footer{
+    
+      background-color: #9767A9;
+      margin-bottom: -300vh;
+     
+      
+  }
+
+
+  
