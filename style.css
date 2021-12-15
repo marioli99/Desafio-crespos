@@ -115,7 +115,7 @@ body{
 }
 
 .cabeludo{
-    background-image: url('/imagem/cabeludo.png');
+    background-image: url('imagem/cabeludo.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
